@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1{
+  font-family: Montserrat;
+}
+
+.h1-lg{
+  font-weight: 600;
+  font-size: 50px;
+}
+
+h2{
+  font-family: Montserrat;
+}
+
+.h2-lg{
+  font-weight: 600;
+  font-size: 50px;
+}
+
+p{
+  font-family: Roboto;
+}
+
+h5{
+  font-family: Roboto;
+}
+
+a{
+  font-family: Roboto;
+  color: #B615EE;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #8915ee;
+}
+
+.negrito{
+  font-weight:bold;
+}
+
+::placeholder {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+button{
+  font-family: Roboto;
+  font-size:20px;
+  border-radius: 100px;
+  height: 40px;
+  width: 100%;
+  background-color: #B615EE;
+  border: none;
+  color: white;
+  outline: none;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+button:hover{
+  background-color:  #8915ee;
+  color: #000;
+  box-shadow: 0px 2px 3px rgba(0px, 0px, 0px, 0.3px);
+}
+
+.form-center{
+  max-width: 400px;
+  margin: auto;
+  font-family: Roboto;
+  font-size:large;
+  border-radius: 100px;
+  height: 40px;
+  width: 100%;
+}
+
+.form-center-no-line{
+  max-width: 400px;
+  margin: auto;
+  font-family: Roboto;
+  font-size:large;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+}
+
+.form-center-signin{
+  max-width: 500px;
+  margin: auto;
+  font-family: Roboto;
+  font-size:large;
+  border-radius: 100px;
+  height: 40px;
+  width: 100%;
+}
+
+.form-center-no-line::-webkit-input-placeholder{
+  color: black;
+  font-weight: normal;
+  font-family: Roboto;
+  text-align: left;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+}
+
+input:disabled{
+  border-color: #767676;
+}
+
+.input{
+  max-width: 500px;
+  margin: auto;
+  font-family: Roboto;
+  font-size:large;
+  border-radius: 100px;
+  border: 1px solid #767676;
+  height: 40px;
+  width: 100%;
+  padding-left: 25px;
+}
+
+input[type= 'email']::placeholder{
+  text-align: left;
+}
+
+/* Style para alinhar o label */
+.label-input{
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 10px;
+  width: 30%;
+  font-family: Roboto;
+
+}

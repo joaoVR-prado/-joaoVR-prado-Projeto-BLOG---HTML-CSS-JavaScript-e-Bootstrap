@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1{
+  font-family: Montserrat;
+  position: relative;
+  top: 20px;
+
+}
+
+.h1-lg{
+  font-weight: 600;
+  font-size: 50px;
+  
+}
+
+h2{
+  font-family: Montserrat;
+  position: relative;
+  top: 140px;
+
+}
+
+.h2-lg{
+  font-weight: 600;
+  font-size: 50px;
+
+}
+
+a{
+  font-family: Roboto;
+  color: #B615EE;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #8915ee;
+
+}
+
+::placeholder {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+button{
+  font-family: Roboto;
+  font-size:20px;
+  border-radius: 100px;
+  height: 40px;
+  width: 100%;
+  background-color: #B615EE;
+  border-color: #B615EE;
+  color: white;
+  position: relative;
+  top: 150px;
+
+}
+
+button:hover{
+  background-color:  #8915ee;
+  border-color: #8915ee;
+  color: #000;
+
+}
+
+.form-center-no-line{
+  max-width: 400px;
+  margin: auto;
+  font-family: Roboto;
+  font-size:large;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+
+}
+
+.form-center-signin{
+  max-width: 500px;
+  margin: auto;
+  font-family: Roboto;
+  font-size:large;
+  border-radius: 100px;
+  height: 40px;
+  width: 100%;
+
+}
+
+.form-center-no-line::-webkit-input-placeholder{
+  color: black;
+  font-weight: normal;
+  font-family: Roboto;
+  text-align: left;
+
+}
+
+.icon{
+  min-width: 50px;
+  text-align: center;
+  font-size: 2.5em;
+
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  top: 160px;
+  margin-bottom: 30px;
+
+}
+
+input[type='radio'] {
+  appearance: none;
+  background: #c4c4c4;
+  outline: 0;
+  border: 0;
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+
+}
+
+input[type='radio']:checked {
+  background: #B615EE;
+
+}
+
+input:disabled{
+  border-color: #767676;
+
+}
+
+/* Style para alinhar o label */
+.label-input{
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 10px;
+  width: 30%;
+  font-family: Roboto;
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+  .text-center{
+    width: 95%;
+    position: relative;
+    left: 5px;
+    bottom: 50px;
+  
+  }
+
+}

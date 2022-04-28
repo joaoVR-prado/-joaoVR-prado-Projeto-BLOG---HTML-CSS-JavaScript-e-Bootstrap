@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/perfil.css">
+  <title> Perfil </title>
+
+</head>
+
+<body>
+  <!--Valores ainda nao baseados no login-->
+  <div class="text-center mt-5">
+    <a href="index.html"> <h1 class="h1-lg"> TechNews </h1> </a>
+    <h2 class="h2-lg"> Perfil </h2>
+    <form class="form-center-signin">
+      <div class="input-container">
+        <i class="fa fa-envelope icon"></i>
+        <label class="label-input"> E-mail: </label>
+        <input type="email" name="email" id="email" class="form-center-no-line" placeholder="usuario@gmail.com" disabled>
+      </div> 
+      <div class="input-container">
+        <i class="fa fa-user icon"></i>
+        <label class="label-input"> Nome: </label>
+        <input type="text" name="nome" id="nome" class="form-center-no-line" placeholder="usuario" disabled>
+      </div> 
+      <div class="input-container">
+        <i class="fa fa-calendar icon"></i>
+        <label class="label-input" style="width: 80%;"> Data de Nascimento: </label>
+        <input placeholder="01/01/2001" type="text" name="dataNascimento" id="dataNascimento" class="form-center-no-line" disabled>
+      </div> 
+      <div class="input-container">
+        <i class="fa fa-transgender icon"></i>
+        <label class="label-input"> Sexo: </label>
+        <input type="radio" name="sexo" id="sexo1" class="form-center-no-line" value="Sexo" disabled checked> <!--Verificar condicao / checked por enquanto-->
+        <label for="sexo" class="label-input"> Feminino </label>
+        <input type="radio" name="sexo" id="sexo2" class="form-center-no-line" value="Sexo" disabled> <!--Verificar condicao-->
+        <label for="sexo" class="label-input"> Masculino </label>
+      </div> 
+      <div class="input-container">
+        <i class="fa fa-user-plus icon"></i>
+        <label class="label-input"> Apelido: </label>
+        <input type="text" name="Apelido" id="apelido" class="form-center-no-line" placeholder="user" disabled>
+      </div>
+    </form>
+  </div> 
+  <script src="js/bootstrap.bundle.min.js"> </script>
+
+</body>
+</html>

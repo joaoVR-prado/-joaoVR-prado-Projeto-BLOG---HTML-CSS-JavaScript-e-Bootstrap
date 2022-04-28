@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#h1{
+  font-weight: 600;
+  font-size: 50px;
+  font-family: Montserrat;
+  position: relative;
+  top: 50px;
+
+}
+
+#h2{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 40px;
+  position: relative;
+  top: 110px
+
+}
+
+#a{
+  font-family: Roboto;
+  color: #000;
+  text-decoration: none;
+
+}
+
+#a:hover{
+  color: #B615EE;
+  
+}
+
+.button-publicar{
+  font-family: Roboto;
+  font-size:20px;
+  border-radius: 100px;
+  height: 40px;
+  width: 260px;
+  background-color: #B615EE;
+  border-color: #B615EE;
+  color: white;
+  position: relative;
+  top: 20px;
+  margin-bottom: 30px;
+  
+}
+
+.button-publicar:hover{
+  background-color:  #8915ee;
+  border-color: #8915ee;
+  color: #000;
+
+}
+
+.container { 
+    width: 90vw; 
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 150px;
+
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  bottom: 10px;
+
+}
+
+.form-center{
+  font-family: Roboto;
+  font-size:large;
+  border-radius: 100px;
+  bottom: 200px;
+
+}
+
+::placeholder {
+  color: black;
+  font-weight: 400;
+  position: relative;
+  left: 1%;
+
+}
